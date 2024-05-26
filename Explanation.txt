@@ -1,0 +1,18 @@
+
+This screenshot displays the WireGuard interface showing connected clients. It indicates that the client named "mpoch_iphone" with the IP address 10.8.0.2 is connected. The data transfer rates are shown as 4.85 KB/s for download and 0 B/s for upload, with a total of 7.8 MB downloaded and 1.75 MB uploaded.
+
+
+This screenshot shows the interactive setup process of the "ansible-easy-vpn" script on an Ubuntu 22.04 server. The steps include:
+
+Entering a UNIX username and password (used for Authelia login, administrative access, and SSH login).
+Optionally enabling Adguard for DNS resolution with ad blocking.
+Entering a domain name, which resolves to the server's IP address.
+Running certbot to obtain a Let's Encrypt certificate for the domain.
+Selecting a preferred DNS provider (Cloudflare, Quad9, or Google).
+The setup is performed over SSH from a Windows machine using PowerShell.
+
+
+This screenshot shows the beginning of the "ansible-easy-vpn" script setup process. It prompts the user to enter their desired UNIX username. The script is interactive, and the user has the option to fill in a configuration file manually or proceed with the script by entering the required information interactively.
+
+
+This screenshot shows the WireGuard app on an iPhone, displaying a VPN connection named "mpochVPN." The connection is active, indicated by the green toggle switch. This setup was used to connect to the VPN to change the device's location. The configuration and management of the VPN were performed using the WireGuard interface on an Ubuntu 22.04 server, with initial setup commands executed over SSH from a Windows environment using PowerShell.
